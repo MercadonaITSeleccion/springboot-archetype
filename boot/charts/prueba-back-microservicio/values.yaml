@@ -1,0 +1,20 @@
+## IMPORTANT NOTE:
+##
+## THIS YAML SHOULD CONTAIN THE SHARED CONFIGURATION
+## BETWEEN ALL ENVIRONMENTS: DEV, ITG, PRE AND PRO
+
+## Default values for the application.
+## This is a YAML-formatted file.
+## Declare variables to be passed into your templates.
+
+springboot-service:
+  ## appName and appVersion will be replaced during CI execution
+  appName: prueba-back-microservicio
+  appVersion: 0.0.1
+  projectName: prueba
+
+  image:
+    ## repository and tag will be replaced during CI execution
+    repositoryUrl: docker.artifactory.gcp.mercadona.com
+    imagePath: <image>
+    tag: <tag>

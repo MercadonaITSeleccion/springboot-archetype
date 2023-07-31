@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: prueba-back-microservicio
+
+# Actuator endpoints configuration
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: [ info, health, metrics, prometheus ]
+
+
+server:
+  port: 8080

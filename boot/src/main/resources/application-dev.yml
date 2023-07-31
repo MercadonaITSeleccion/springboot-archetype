@@ -1,0 +1,4 @@
+logging:
+  file:
+    path: logs
+    name: logs/application-dev.log

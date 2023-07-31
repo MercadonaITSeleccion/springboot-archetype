@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>prueba-back-microservicio-application</artifactId>
+  <packaging>jar</packaging>
+  <name>prueba-back-microservicio-application</name>
+
+  <parent>
+    <groupId>com.mercadona.prueba.microservicio</groupId>
+    <artifactId>prueba-back-microservicio</artifactId>
+    <version>0.0.1</version>
+  </parent>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>com.mercadona.framework.cna</groupId>
+      <artifactId>fwkcna-commons-domain</artifactId>
+    </dependency>
+
+  </dependencies>
+
+
+</project>

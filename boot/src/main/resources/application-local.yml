@@ -1,0 +1,14 @@
+spring:
+  flyway:
+    locations: classpath:migration/versions
+
+  cloud:
+    gcp:
+      sql:
+        enabled: false
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/examples
+    username: sa
+    password: root
+    driver-class-name: org.postgresql.Driver

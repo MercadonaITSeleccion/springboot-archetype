@@ -1,0 +1,7 @@
+## Use this .dockerignore in order to skip unnecessary files and speed up the build process
+
+## Exclude all files
+*
+
+## Include only build directory
+!target/dependency

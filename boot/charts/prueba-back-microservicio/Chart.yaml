@@ -1,0 +1,10 @@
+apiVersion: v1
+description: Helm chart for running prueba-back-microservicio microservice in Kubernetes
+name: prueba-back-microservicio
+version: 0.0.1
+keywords:
+  - springboot
+  - service
+  - java
+appVersion: 0.0.1
+icon: https://www.mercadona.com/estaticos/favicon/favicon-194x194.png
